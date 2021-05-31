@@ -939,6 +939,13 @@ footer{
       margin:3rem 6rem 1rem;
       font-size:0.85rem;
     }
+
+    .huwatto.appear{
+      transform:none;
+    }
+    .huwatto{
+      transform:none;
+    }
   }
 
 }
