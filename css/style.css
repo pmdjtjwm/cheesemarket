@@ -691,15 +691,15 @@ footer{
   }
 
   .news-head h1{
-    font-size:0.5rem;
+    font-size:0.85rem;
   }
 
   .news-head h3{
-    font-size:0.25rem;
+    font-size:0.85rem;
   }
 
   .news-txt{
-    font-size:0.25rem;
+    font-size:0.85rem;
     padding-left:0.5rem;
     padding-right:1rem;
   }
@@ -824,7 +824,7 @@ footer{
   }
 
   .form{
-    display:block;
+    display:block; 
     margin:0;
   }
 
@@ -937,17 +937,20 @@ footer{
   @media(max-width:480px){
 
     input[type="email"]{
-      margin:3rem 6rem 1rem;
+      margin:3rem auto 1rem;
       font-size:0.85rem;
+      width:60%;
     }
 
-    .huwatto.appear{
-      transform:none;
-      transition:unset;
-    }
     .huwatto{
       transform:none;
       transition:unset;
+      opacity:1;
+    }
+    .huwatto.appear{
+      transform:none;
+      transition:unset;
+      opacity:1;
 
     }
 
