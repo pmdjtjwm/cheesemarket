@@ -931,6 +931,7 @@ footer{
   small{
     font-size:0.75rem;
   }
+}
 
 
   @media(max-width:480px){
@@ -942,10 +943,12 @@ footer{
 
     .huwatto.appear{
       transform:none;
+      transition:unset;
     }
     .huwatto{
       transform:none;
+      transition:unset;
+
     }
-  }
 
 }
