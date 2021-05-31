@@ -935,6 +935,27 @@ footer{
 
 
   @media(max-width:480px){
+    
+    
+    .page-header img{
+      width: 35%;
+    }
+
+    .button{
+      font-size: 0.85rem;
+    }
+
+    .cheeseplate, .seminarcheese {
+      padding-bottom: 3.5rem;
+    }
+
+    .cheeseplate p, .seminarcheese p{
+      padding-bottom:0;
+    }
+
+    /* .form{
+      flex-direction: column;
+    } */
 
     input[type="email"]{
       margin:3rem auto 1rem;
@@ -951,7 +972,25 @@ footer{
       transform:none;
       transition:unset;
       opacity:1;
-
     }
 
+    .footerlogo > a img{
+      width:100%;
+    }
+
+    .snsicon{
+      width:50%;
+
+    }
+    .snsicon li{
+      opacity:1;
+      padding:0 1rem 0;
+    }
+    .address{
+      text-shadow: 2px 2px 2px rgb(165, 165, 165);
+    }
+
+    .footerlink a{
+      font-size: 0.75rem;
+    }
 }
